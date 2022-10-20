@@ -62,12 +62,21 @@ const App = () => {
     },
   ]
 
+
   const jessThings = [
     {
       name: "animals",
-      image: 'https://unsplash.com/photos/ttpNCevA1tA'
+      image: 'https://unsplash.com/photos/ttpNCevA1tA',
       attributes: ['cute', 'more legs than humans have', 'nice to look at' ]
-    }
+    },
+    ]
+
+  const natesThings = [
+    {
+      name: "alcohol",
+      image: "https://www.budlight.com/img/BL_Core_Can.png",  
+      attributes: ["efficient", "reusability", "yummy", "beautiful"],
+    },
   ]
 
   return (
