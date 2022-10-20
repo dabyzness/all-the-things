@@ -62,6 +62,14 @@ const App = () => {
     },
   ]
 
+  const natesThings = [
+    {
+      name: "alcohol",
+      image: "https://www.budlight.com/img/BL_Core_Can.png",  
+      attributes: ["efficient", "reusability", "yummy", "beautiful"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
