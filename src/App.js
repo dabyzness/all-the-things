@@ -62,6 +62,15 @@ const App = () => {
     },
   ]
 
+
+  const jessThings = [
+    {
+      name: "animals",
+      image: 'https://unsplash.com/photos/ttpNCevA1tA',
+      attributes: ['cute', 'more legs than humans have', 'nice to look at' ]
+    },
+    ]
+
   const natesThings = [
     {
       name: "alcohol",
@@ -88,6 +97,8 @@ const App = () => {
       />
     </Routes>
   )
+
+
 }
 
 export default App
