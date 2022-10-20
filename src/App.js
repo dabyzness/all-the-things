@@ -62,6 +62,14 @@ const App = () => {
     },
   ]
 
+  const jessThings = [
+    {
+      name: "animals",
+      image: 'https://unsplash.com/photos/ttpNCevA1tA'
+      attributes: ['cute', 'more legs than humans have', 'nice to look at' ]
+    }
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -80,6 +88,8 @@ const App = () => {
       />
     </Routes>
   )
+
+
 }
 
 export default App
